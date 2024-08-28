@@ -21,7 +21,7 @@
 <div class="container_2">
   <div class="column_wrapper">
     <div class="circle"></div>
-    <p class="num">1000</p>
+    <p class="num_2">1000</p>
   </div>
 </div>
 
@@ -58,6 +58,12 @@
     margin: 0;
     color: #ee0001;
   }
+  .num_2 {
+    font-size: 18px;
+    margin: 0;
+    color: #ee0001;
+  }
+
   .circle {
     width: 80px;
     height: 80px;
