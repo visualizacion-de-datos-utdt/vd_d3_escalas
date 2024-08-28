@@ -19,7 +19,10 @@
 
 <h2>Ejemplo 2: Color</h2>
 <div class="container_2">
-  <div class="circle"></div>
+  <div class="column_wrapper">
+    <div class="circle"></div>
+    <p class="num">1000</p>
+  </div>
 </div>
 
 <!-- Estilos CSS -->
@@ -34,7 +37,7 @@
     border: 1px solid #000;
   }
   .container_2 {
-    height: 80px;
+    height: auto;
   }
 
   .column_wrapper {
