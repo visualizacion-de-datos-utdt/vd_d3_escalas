@@ -6,6 +6,8 @@
   let data = [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000]
 </script>
 
+<div class="mascara_circ"></div>
+
 <!-- Estructura contenido HTML -->
 <h2>Ejemplo 1: Altura</h2>
 <div class="container">
@@ -27,6 +29,17 @@
 
 <!-- Estilos CSS -->
 <style>
+  .mascara_circ {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background-image: url("https://raw.githubusercontent.com/visualizacion-de-datos-utdt/vd_d3_escalas/start/public/images/circles.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 50% ;
+  background-position: 0%;
+  /* border- */
+}
   /* Estilos CSS */
   .container,
   .container_2 {

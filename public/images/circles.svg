@@ -9,4 +9,5 @@
   <circle cx="100" cy="100" r="20" fill="none" stroke="black" stroke-width="2"/>
   <circle cx="100" cy="100" r="10" fill="none" stroke="black" stroke-width="2"/>
   <circle cx="100" cy="100" r="2" fill="none" stroke="black" stroke-width="2"/>
+  <rect width="95" height="190" x="100" y="5" fill="white" />
 </svg>
