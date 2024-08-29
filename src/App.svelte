@@ -6,7 +6,6 @@
   let data = [1000, 1500, 2000, 2500, 3000, 3500, 4000, 4500, 5000]
 </script>
 <div class="circle_container">
-
   <div class="mascara_circ" style="width: 100px; height: 100px;"></div>
   <div class="mascara_circ" style="width: 55px; height: 55px;"></div>
   <div class="mascara_circ" style="width: 25px; height: 25px;"></div>
@@ -33,6 +32,7 @@
 
 <!-- Estilos CSS -->
 <style>
+  /* Contenedor de los círculos */
   .circle_container {
     display: flex;
     justify-content: flex-start;
@@ -40,15 +40,14 @@
     gap: 10px;
   }
   .mascara_circ {
-    width: 100px;
-    height: 100px;
-    /* border: 1px solid black; */
+    /* Convierte el div en círculo */
+    border-radius: 50%; 
+    /* Ruta al svg concéntricos */
     background-image: url("https://raw.githubusercontent.com/visualizacion-de-datos-utdt/vd_d3_escalas/start/public/images/circles.svg");
-    background-repeat: no-repeat;
-    background-size: 100px;
-    border-radius: 50%;
+    /* Tamaño del svg */
+    background-size: 100px; 
     background-position: center;
-    /* border- */
+    background-repeat: no-repeat;
   }
   /* Estilos CSS */
   .container,
